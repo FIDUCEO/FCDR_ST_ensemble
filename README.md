@@ -103,7 +103,7 @@ Open the `notebooks` folder and select a use case.
 
 ## Conda Deployment
 
-There will be a dedicated repository [ENSEMBLE_SST-conda](https://github.com/FIDUCEO/FCDR_ST_ensemble/FCDR_ST_ensemble-conda)
+There will be a dedicated repository [FCDR_ST_ensemble-conda](https://github.com/FIDUCEO/FCDR_ST_ensemble/FCDR_ST_ensemble-conda)
 that will provide scripts and configuration files to build FCDR_ST_ensemble's Conda packages and stand-alone installer.
 
 ## Development
