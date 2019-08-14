@@ -12,8 +12,16 @@ Development code for calculation of the FCDR ST ensemble from the harmonised AVH
 ## Contents
 
 * `setup.py` - main build script to be run with Python 3.6
-* `calc_ensemble.py` - eigenvalue decomposition script to be run with Python 3.6
-* `FCDR_ST_ensemble/` - main package and production code
+* `convert_func.py` - functions for radiance <--> brightness temperature conversion functions plus measurement equations
+* `ensemble_func.py` - functions for calculation of the ensemble
+* `inmyvenv.sh` - conda environment activation script
+* `plot_cov2ensemble.py` - plotting routines for cov2ensemble calculations
+* `plot_ensemble.py` - plotting routines for ensemble calculations
+* `run_test_cov2ensemble.sh` - submission script for test_cov2ensemble.py
+* `run_test_ensemble2bt.sh` - submission script for test_ensemble2bt.py
+* `sample_binormal.py` - 2D-normal distribution (joint) Monte Carlo sampling test
+* `test_cov2ensemble.py` - generate ensemble given a covariance matrix and parameter mean values
+* `test_ensemble2bt.py` - generate ensemble brightness temperatures given a radiance ensemble
 
 ## Installation from Sources
 
@@ -148,3 +156,4 @@ The code is distributed under terms and conditions of the [MIT license](https://
 ## Contact information
 
 * Michael Taylor (michael.taylor@reading.ac.uk): https://patternizer.github.io
+
