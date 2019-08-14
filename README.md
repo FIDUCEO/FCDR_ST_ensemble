@@ -7,7 +7,7 @@
                 
 # FCDR_ST_ensemble
 
-Development code for calculation of the FCDR ST ensemble from the harmonised AVHRR Easy-FCDR covariance matrix.
+Development code for calculation of the FCDR ST ensemble from the harmonised AVHRR Easy-FCDR covariance matrix. 
 
 ## Contents
 
