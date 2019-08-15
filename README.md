@@ -71,10 +71,13 @@ requires Python 3.6+.
 FCDR_ST_ensemble can be run from sources directly, once the following module requirements are resolved:
 
 * `matplotlib`
-* `netcdf4`
+* `netCDF4`
 * `numba`
 * `numpy`
+* `pandas`
 * `scipy`
+* `seaborn`
+* `sklearn`
 * `xarray`
 
 The most up-to-date list of module requirements is found in the project's `environment.yml` file.
